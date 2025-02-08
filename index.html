@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PERSONAL PORTFOLIO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+    .img1{
+    transition: transform 0.5s ease;
+    }
+    .img1:hover {
+    transform: scale(1.05); 
+    }
+    .card{
+    transition: transform 0.5s ease;
+    }
+    .card:hover {
+    transform: scale(1.05); 
+    }
+    .home-image{
+        transition: transform 0.5s ease;
+    }
+    .home-image:hover{
+        transform: scale(1.05); 
+    }
+    </style>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top bg-black ">
+        <div class="container">
+            <a href="#section" class="navbar-brand">
+                <img src="logo.png" height="50px" alt="CoolBrand">
+            </a>
+            <button type="button" class="navbar-toggler border-white" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto">
+                    <a href="#home-section" class="nav-item nav-link active text-white p-2">HOME</a>
+                    <a href="#about-section" class="nav-item nav-link active text-white p-2">ABOUT ME</a>
+                    <a href="#service-section" class="nav-item nav-link active text-white p-2">SERVICES</a>
+                    <a href="#project-section" class="nav-item nav-link active text-white p-2">PROJECTS</a>
+                    <a href="#contact-section" class="nav-item nav-link active text-white p-2">CONTACT</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="bg-black" id="home-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 p-5">
+                    <h4 class="text-danger"> <strong>Hello, I'm</strong></h4>
+                    <h1 class="text-white"> <strong> R I N S H A &nbsp F E B I N </strong></h1>
+                    <h2 class="text-white"> <strong> Designer | Developer </strong></h2>
+                    <p class="text-white">"A passionate and dedicated junior web developer, driven by the ever-evolving
+                        world of technology and its limitless possibilities."</p>
+                    <a href="https://www.instagram.com/rin.sha_febn?igsh=ZGYzZzQwM3Q4azhu" target="_blank" class="m-2">
+                        <i class="fa-brands fa-instagram display-6" style="color: white;"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/rinsha-febin-k-k-693992346" target="_blank"
+                        class="m-2 text-decoration-none">
+                        <i class="fa-brands fa-linkedin display-6" style="color: white;"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-square-x-twitter display-6 m-2" style="color: white;"></i>
+                    </a>
+                    <br>
+                    <a href="mailto:rinshafebinkk12@gmail.com">
+                        <button class="btn btn-danger mb-5 m-2">Contact Me</button>
+                    </a>
+                </div>
+                <div class="home-image col-md-6 text-center">
+                    <img src="home-image.png" alt="Not loading" class="img-fluid w-60">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about-section">
+        <div class="container-fluid bg-black p-5 pt-5">
+            <div class="row text-white pt-5">
+                <div class="col-md-12 p-5">
+                    <h3 class="text-danger"><strong>About me</strong></h3>
+                    <h1><strong>Who Am i</strong></h1>
+                    <p style="text-align:justify;">I'm Rinsha Febin, a passionate frontend web developer with a strong focus on crafting
+                        visually
+                        appealing and user-friendly interfaces. I specialize in HTML, CSS, JavaScript, and frameworks
+                        like React and Next.js. With expertise in responsive design, I ensure seamless functionality
+                        across all devices. Committed to continuous learning, I stay updated with the latest trends
+                        and technologies to deliver cutting-edge solutions.
+                    </p>
+                    <div class="button bg-dark mt-5" style="border-radius: 10px;">
+                        <button type="button" class=" button btn text-white  m-3 w-25  bg-dark">
+                            <i class="fa-brands fa-html5" style="color: orangered;"></i>
+                            Html5
+                        </button>
+                        <button type="button" class=" button btn text-white  m-2 w-25 bg-dark">
+                            <i class="fa-brands fa-css3-alt" style="color: rgb(28, 28, 238);"></i>
+                            Css3
+                        </button>
+                        <button type="button" class="button btn text-white  m-2 w-25 bg-dark">
+                            <i class="fa-brands fa-js" style="color: yellow;"></i>
+                            JavaScript
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-black" id="service-section">
+        <div class="container-fluid p-5">
+            <div class="row m-2">
+                <div class="col">
+                    <h3 class="text-danger"> <strong>My Services</strong></h3>
+                    <h1 class="text-white"> <strong>What Can I Do</strong></h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid bg-black">
+            <div class="row">
+                <div class="col-md-4 my-auto">
+                    <div class="card text-center bg-dark text-white m-5 mt-2">
+                        <div class="card-header">
+                            <a href="" style="color: red;"><i class="fa-solid fa-paintbrush"></i></a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Creative Design</h5>
+                            <p class="card-text">Leveraging artistic elements and aesthetic principles to craft visually
+                                appealing and
+                                engaging user experiences.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center bg-dark text-white m-5 mt-2">
+                        <div class="card-header">
+                            <a href="" style="color: red;"><i class="fa-solid fa-code"></i></a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Clean Code</h5>
+                            <p class="card-text">Writing code that is well-structured, readable, and maintainable. It
+                                involves following coding best practices.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center bg-dark text-white m-5 mt-2">
+                        <div class="card-header">
+                            <a href="" style="color: red;"><i class="fa-solid fa-desktop"></i></a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">User Interface</h5>
+                            <p class="card-text">Creating intuitive and user-friendly designs that prioritize usability,
+                                accessibility,
+                                and a seamless user experience.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-black">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 my-auto">
+                    <div class="card text-center bg-dark text-white m-5 mt-2">
+                        <div class="card-header">
+                            <a href="" style="color: red;"><i class="fa-solid fa-user"></i></a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">User Experience</h5>
+                            <p class="card-text">Understanding user needs and preferences to create
+                                interfaces that are efficient and enjoyable to use.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center bg-dark text-white m-5 mt-2">
+                        <div class="card-header">
+                            <a href="" style="color: red;"><i class="fa-solid fa-headset"></i></a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Fast Support</h5>
+                            <p class="card-text">Resolving user-reported website issues to ensure a seamless experience
+                                through troubleshooting and
+                                support.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center bg-dark text-white bg-secondary m-5 mt-2">
+                        <div class="card-header">
+                            <a href="" style="color: red;"><i class="fa-solid fa-flag"></i></a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Branding</h5>
+                            <p class="card-text">Creating consistent brand experiences through the use of
+                                logos, color schemes, typography, and other branding assets.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="project-section">
+        <div class="container-fluid bg-black text-white p-5">
+            <div class="row m-2 pt-5">
+                <h3 class="p-2 text-danger"><strong>Projects</strong></h3>
+                <h1 class="p-2"><strong>What I Have Created</strong></h1>            
+                <div class="col-md-6 mb-4 img1">
+                    <div class="card w-80 h-100">
+                        <img src="project1.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="https://rinshafebin.github.io/booking.com/" class="btn btn-danger w-100">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card  w-80 h-100 border-white img1">
+                        <img src="project2.png" class="card-img-top" alt="...">
+                        <div class="card-body pt-5">
+                            <a href="https://rinshafebin.github.io/W3school/" class="btn btn-danger w-100">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-black" id="contact-section">
+        <div class="container-fluid line-spacing-1">
+            <div class="row p-5">
+                <div class="col-md-12 p-5">
+                    <h1 class="text-white"><strong>Let's Work Together On Your <br> Next Project</strong></h1>
+                    <p class="text-secondary">"Collaboration is key! Lets join forces and combine our skills to tackle
+                        your next <br>
+                        project with a powerful synergy that guarantees success."
+                    </p>
+                    <button class="btn btn-danger mb-5">Contact Me</button>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <section class="bg-black">
+        <h1 class="text-white text-center"><strong>Contact Me</strong></h1>
+        <div class="col-md-12 d-flex justify-content-center p-2">
+            <form method="post" action="mailto:rinshafebinkk12@gmail.com" class="w-50">
+                <div class="mb-3">
+                    <input type="text" class="form-control mb-2" id="firstName" placeholder="First name" required>
+                    <input type="text" class="form-control mb-2" id="lastName" placeholder="Last name" required>
+                    <input type="email" class="form-control mb-2" id="email" placeholder="email@gmail.com" required>
+                    <textarea class="form-control mb-3" id="message" rows="6" placeholder="Message" required></textarea>
+                    <button type="submit" class="btn btn-danger w-100">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="text-secondary bg-black text-center">
+        <div class="container-fluid">
+            <div class="row">
+                <p class="p-0">© 2025 RINSHA || All Rights Reserved.</p>
+
+            </div>
+        </div>
+        
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+
